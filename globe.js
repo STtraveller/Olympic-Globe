@@ -32,7 +32,7 @@ DAT.Globe = function(container, opts) {
     } else if (x <= 20) {
       c.setRGB(59/255, 185/255, 255/255);
     } else {
-      c.setRGB(0, 0, 0);
+      c.setRGB(204/255, 229/255, 255/255);
     }
     return c;
   };
