@@ -36,7 +36,7 @@ DAT.Globe = function(container, opts) {
     }
     return c;
   };
-  var imgDir = opts.imgDir || '/';
+  var imgDir = opts.imgDir || '/Olympic-Globe/';
 
   var Shaders = {
     'earth' : {
