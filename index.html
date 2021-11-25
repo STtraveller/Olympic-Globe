@@ -174,14 +174,14 @@
               return new THREE.Color(0x32cd32);
             });
 
-            var change = function (i) {
+            var change = function (t) {
               return function () {
                 globe.resetData();
-                globe.addData(data[i][1], { format: 'legend' });
+                globe.addData(data[t][1], { format: 'legend' });
                 globe.createPoints();
                 globe.animate();
 
-                var y = document.getElementById('year' + years[i]);
+                var y = document.getElementById('year' + years[t]);
                 if (y.getAttribute('class') === 'year active') {
                   return;
                 }
