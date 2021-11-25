@@ -30,9 +30,9 @@ DAT.Globe = function(container, opts) {
     } else if (x <= 10) {
       c.setRGB(173/255, 255/255, 47/255);
     } else if (x <= 20) {
-      c.setRGB(59/255, 185/255, 255/255);
+      c.setRGB(0/255, 255/255, 187/255);
     } else {
-      c.setRGB(204/255, 229/255, 255/255);
+      c.setRGB(8/255, 179/255, 229/255);
     }
     return c;
   };
